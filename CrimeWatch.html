@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Raritan Township Community Crime Watch</title>
+ <style>
+   * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+/* Header Styles */
+header {
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: Blue;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+/* Main Section Styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Form Styles */
+form {
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Raritan Township Community Crime Watch</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="CrimePrevention.html">Crime Prevention</a></li>
+        <li><a href="Alert.html">Township Alerts</a></li>
+        <li><a href="discussion.html">Discussion Forum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to the Raritan Township Community Crime Watch a collaborative initiative born out of our shared dedication to safeguarding our homes and nurturing a stronger, more connected community. We're thrilled to have you join us in our shared commitment to fostering a safe and secure neighborhood. Here, you'll discover a hub dedicated to crime prevention, offering valuable resources, tips, and strategies to safeguard our community. Stay updated and informed with Township Alerts, providing real-time information on local incidents and safety notices. Engage with fellow residents, share insights, and collaborate on our vibrant Discussion Forum, where ideas are exchanged, questions are answered, and a sense of unity is cultivated. Together, let's proactively work towards a safer, more vigilant neighborhood. Join us in making a difference!</p>
+      <p align="center">
+    <img src="Raritan.jpeg" height="400" width="500">
+
+  </p>
+      <br>
+    </section>
+
+    <section id="about">
+      <h2>About Us </h2>
+      <p>At the heart of our mission lies a simple yet powerful objective: to empower every member of our neighborhood to contribute to a safer environment. Our website serves as a hub for seamless reporting of any suspicious activities, ensuring swift responses and collective vigilance against potential threats. Beyond this vital function, we are committed to providing a wealth of resources and knowledge through expert-curated videos. These resources offer practical insights and guidance on fortifying our homes and forming neighborhood watch groups.</p>
+      <br> 
+      <p> This website is more than a technological platform—it's a testament to our collective resolve to prioritize safety and unity. It's an embodiment of our commitment to staying informed, supporting one another, and actively contributing to a safer, more connected Raritan Township for present and future generations. </p> 
+    </section>
+    <section id="contact">
+      <h2>Send us a Tip or Report</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    
+    <section id="Our police department">
+      <h2> Our police department</h2>
+      <p> Here you can find a digital google map of our trust-worthy police department. They are always helpful whenever you are in need. 
+        <br>
+        <p align= "center">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13438.813858592828!2d-74.64600973438328!3d40.56943410341021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3ead4dbf1be91%3A0x52069a78d1647924!2sRaritan%20Police%20Department!5e0!3m2!1sen!2sus!4v1702438507903!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </p>
+    </section>
+      
+  </main>
+
+  <footer>
+    <p>&copy; </p>
+  </footer>
+ <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var form = document.getElementById('contact-form');
+
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Show a pop-up thanking the user for submission
+        alert('Thank you for your submission');
+
+        // clear the form after submission
+        form.reset();
+      });
+    });
+  </script>
+  
+</body>
+</html>
+
